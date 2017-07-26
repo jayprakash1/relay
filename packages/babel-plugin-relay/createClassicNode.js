@@ -299,7 +299,7 @@ function createFragmentForOperation(t, path, operation, state) {
   let type;
   switch (operation.operation) {
     case 'query':
-      type = 'Query';
+      type = 'Root';
       break;
     case 'mutation':
       type = 'Mutation';
